@@ -1,0 +1,28 @@
+/* line 1, C:/Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/media-objects/styles/main.scss */
+html {
+  font-size: 18px;
+  font-family: "Iowan Old Style", Georgia, serif; }
+
+/* line 6, C:/Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/media-objects/styles/main.scss */
+h1 {
+  text-align: center; }
+
+/* line 10, C:/Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/media-objects/styles/main.scss */
+.media-object {
+  display: flex;
+  width: 600px;
+  background-color: #dcdcdc;
+  border-radius: 6px;
+  padding: .75em;
+  margin: 2px auto; }
+  /* line 17, C:/Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/media-objects/styles/main.scss */
+  .media-object > img {
+    width: 100px;
+    height: 100px;
+    margin-right: .75em;
+    flex-shrink: 0; }
+  /* line 23, C:/Users/Jada/Google Drive/Webster University/Senior Year/Second Semester/COAP CSS/Web Dev Projects/media-objects/styles/main.scss */
+  .media-object > .media-text {
+    flex-grow: 1; }
+
+/*# sourceMappingURL=main.css.map */
